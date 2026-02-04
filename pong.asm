@@ -257,7 +257,7 @@ ball_iteration_x2 db 0
 ball_iteration_y1 db 0
 ball_iteration_y2 db 0
 current_color db 15
-msg db "bootPong v1 by Flloatwer", 0    ;pls dont change
+msg db "bootVolleyball v1 by Flloatwer", 0    ;pls dont change
 
 times 510 - ($ - $$) db 0
 dw 0xAA55
